@@ -1,0 +1,20 @@
+variables = {
+    >globals
+        user
+        client
+        hosts
+        server
+        clientToId
+        clientToUser
+        serverToId
+        serverToClient
+        serverToUser
+    >other
+        unify
+}
+
+echonatGlobal.user() {
+    user = clientToId();
+    client = serverToClient();
+    server = serverToId();
+}
