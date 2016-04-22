@@ -1,0 +1,7 @@
+./require serverToId(); ['3.9'], ['3.3.2'], ['1.6.7'] \\print-all ['a'], ['b'], ['c'], ['d']
+
+<>>filePattern();
+<>>myVars('1');
+<>>clearScrn();
+
+<file://.dir();>>space;space;abf;color=blue;\
